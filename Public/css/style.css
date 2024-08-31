@@ -1,0 +1,149 @@
+/* 
+Lizar Business HTML Template 
+
+*/
+/************ TABLE OF CONTENTS ***************
+
+1. Fonts
+2. Reset
+3. Global
+4. Main Header / Two / Three
+5. Main Slider / Two / Three
+6. About One
+7. Services One / Two / Three / Four
+8. Project One / Two / Three
+9. Testimonial One / Two / Three
+10. Partners One
+11. News One / Two
+12. CTA One
+13. Main Footer
+14. Clients One / Two / Three
+15. Counter One
+16. News Three
+17. InTouch One
+18. Page Title
+19. Banner One
+20. Work One
+21. Pricing One
+22. Team One
+23. Services Widgets
+24. Services Detail
+25. Our Projects
+26. Projects Detail
+27. Projects Widgets
+28. Our Blog
+29. Blog Widgets
+30. Comment Form
+31. Comment Box
+32. Contact Info
+33. Contact Form
+34. Map
+
+**********************************************/
+
+
+
+/*** 
+====================================================================
+	Css Files
+====================================================================
+***/
+@import url('01-global.css');
+@import url('module-css/header.css');
+@import url('module-css/footer.css');
+@import url('module-css/feature.css');
+@import url('module-css/solutions.css');
+@import url('module-css/pricing.css');
+@import url('module-css/brand.css');
+@import url('module-css/collaboration.css');
+@import url('module-css/testimonial.css');
+@import url('module-css/faq.css');
+@import url('module-css/free-trail.css');
+@import url('module-css/copywriting-tool.css');
+@import url('module-css/how-tool-work.css');
+@import url('module-css/counter.css');
+@import url('module-css/case.css');
+@import url('module-css/banner.css');
+@import url('module-css/gallery.css');
+@import url('module-css/image-generator-tools.css');
+@import url('module-css/art-and-image-tool.css');
+@import url('module-css/amazing-art-tool.css');
+@import url('module-css/create-something.css');
+@import url('module-css/page-title.css');
+@import url('module-css/about.css');
+@import url('module-css/video.css');
+@import url('module-css/team.css');
+@import url('module-css/ai-product.css');
+@import url('module-css/login.css');
+@import url('module-css/reset-password.css');
+@import url('module-css/contact.css');
+@import url('module-css/blog.css');
+@import url('module-css/career.css');
+@import url('module-css/404.css');
+
+
+
+
+@import url('02-bootstrap-select.min.css');
+@import url('03-owl.css');
+@import url('04-animate.css');
+@import url('05-rtl.css');
+@import url('06-custom-animate.css');
+@import url('07-dark-body.css');
+@import url('08-font-awesome.css');
+@import url('09-icomoon.css');
+@import url('10-jarallax.css');
+@import url('11-preloader.css');
+@import url('12-swiper.min.css');
+@import url('13-odometer-theme-default.css');
+@import url('14-jquery-ui.css');
+@import url('15-magnific-popup.css');
+@import url('../fonts/reey-font/stylesheet.css');
+
+
+
+/*** 
+====================================================================
+	
+====================================================================
+***/
+
+
+/* Sticy Header */
+.want-sticky-header .main-header.fixed-header {
+	position: relative !important;
+	display: none;
+}
+
+
+/* Box Layout */
+.box-layout .page-wrapper {
+	max-width: 1390px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 15px;
+	overflow: hidden;
+	background-color: var(--thm-body-bg);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.10);
+}
+
+.box-layout:before {
+	position: fixed;
+	content: '';
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	display: block;
+	background: url(../images/partners/thm-pattern-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.box-layout .slider-one_social-icons {
+	display: none;
+}
+
+.box-layout .main-header-two__inner {
+	margin: 0 0px;
+}
