@@ -1,0 +1,91 @@
+@import url("Public/css/01-global.css");
+@import url("Public/css/module-css/header.css");
+@import url("Public/css/module-css/footer.css");
+@import url("Public/css/pmodule-css/feature.css");
+@import url("Public/css/module-css/solutions.css");
+@import url("Public/css/module-css/pricing.css");
+@import url("Public/css/module-css/brand.css");
+@import url("Public/css/module-css/collaboration.css");
+@import url("Public/css/module-css/testimonial.css");
+@import url("Public/css/module-css/faq.css");
+@import url("Public/css/module-css/free-trail.css");
+@import url("Public/css/module-css/copywriting-tool.css");
+@import url("Public/css/module-css/how-tool-work.css");
+@import url("Public/css/module-css/counter.css");
+@import url("Public/css/module-css/case.css");
+@import url("Public/css/module-css/banner.css");
+@import url("Public/css/module-css/gallery.css");
+@import url("Public/css/module-css/image-generator-tools.css");
+@import url("Public/css/module-css/art-and-image-tool.css");
+@import url("Public/css/module-css/amazing-art-tool.css");
+@import url("Public/css/module-css/create-something.css");
+@import url("Public/css/module-css/page-title.css");
+@import url("Public/css/module-css/about.css");
+@import url("Public/css/module-css/video.css");
+@import url("Public/css/module-css/team.css");
+@import url("Public/css/module-css/ai-product.css");
+@import url("Public/css/module-css/login.css");
+@import url("Public/css/module-css/reset-password.css");
+@import url("Public/css/module-css/contact.css");
+@import url("Public/css/module-css/blog.css");
+@import url("Public/css/module-css/career.css");
+
+@import url("Public/css/02-bootstrap-select.min.css");
+@import url("Public/css/03-owl.css");
+@import url("Public/css/04-animate.css");
+@import url("Public/css/05-rtl.css");
+@import url("Public/css/06-custom-animate.css");
+@import url("Public/css/07-dark-body.css");
+@import url("Public/css/08-font-awesome.css");
+@import url("Public/css/09-icomoon.css");
+@import url("Public/css/10-jarallax.css");
+@import url("Public/css/11-preloader.css");
+@import url("Public/css/12-swiper.min.css");
+@import url("Public/css/13-odometer-theme-default.css");
+@import url("Public/css/14-jquery-ui.css");
+@import url("Public/css/15-magnific-popup.css");
+@import url("Public/fonts/reey-font/stylesheet.css");
+
+/***
+====================================================================
+
+====================================================================
+***/
+
+/* Sticy Header */
+.want-sticky-header .main-header.fixed-header {
+  position: relative !important;
+  display: none;
+}
+
+/* Box Layout */
+.box-layout .page-wrapper {
+  max-width: 1390px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px;
+  overflow: hidden;
+  background-color: var(--thm-body-bg);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.box-layout:before {
+  position: fixed;
+  content: "";
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: url(../images/partners/thm-pattern-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box-layout .slider-one_social-icons {
+  display: none;
+}
+
+.box-layout .main-header-two__inner {
+  margin: 0 0px;
+}
