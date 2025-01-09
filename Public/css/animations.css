@@ -1,0 +1,115 @@
+/* Animation Classes */
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.6s ease-in;
+}
+
+.fade-in.animate {
+    opacity: 1;
+}
+
+.slide-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease-out;
+}
+
+.slide-up.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.slide-in {
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: all 0.6s ease-out;
+}
+
+.slide-in.animate {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Staggered animations for lists */
+.stagger-animate > * {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease-out;
+}
+
+.stagger-animate.animate > *:nth-child(1) { transition-delay: 0.1s; }
+.stagger-animate.animate > *:nth-child(2) { transition-delay: 0.2s; }
+.stagger-animate.animate > *:nth-child(3) { transition-delay: 0.3s; }
+.stagger-animate.animate > *:nth-child(4) { transition-delay: 0.4s; }
+.stagger-animate.animate > *:nth-child(5) { transition-delay: 0.5s; }
+
+.stagger-animate.animate > * {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Hover animations */
+.hover-scale {
+    transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+    transform: scale(1.05);
+}
+
+.hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Loading animations */
+.loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid var(--light-background);
+    border-top: 3px solid var(--primary-color);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Pulse animation */
+.pulse {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Page transitions */
+.page-transition {
+    animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
