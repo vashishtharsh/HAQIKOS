@@ -1,0 +1,44 @@
+/* Import all styles */
+@import url('style.css');
+@import url('animations.css');
+@import url('color-switcher-design.css');
+@import url('module-css/header.css');
+@import url('module-css/footer.css');
+@import url('module-css/feature.css');
+@import url('module-css/solutions.css');
+@import url('module-css/pricing.css');
+@import url('module-css/brand.css');
+@import url('module-css/collaboration.css');
+@import url('module-css/testimonial.css');
+@import url('module-css/faq.css');
+
+/* Root Variables */
+:root {
+    --primary-color: #0066ff;
+    --secondary-color: #001f4d;
+    --text-color: #333;
+    --background: #ffffff;
+    --light-bg: #f5f8ff;
+    --border-color: #e1e5ee;
+}
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background: var(--background);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
